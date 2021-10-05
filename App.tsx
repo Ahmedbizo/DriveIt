@@ -1,15 +1,18 @@
 import  React from 'react';
 
-import { View } from 'react-native';
+
+
+import { Provider as PaperProvider, TextInput} from 'react-native-paper';
+import { LoginScreen } from './app/screens/login/login.screen';
 
 const App = () => {
 
 
   return(
-  <View>
+  <PaperProvider>
 
-    
-  </View>
+    <LoginScreen/>
+  </PaperProvider>
 
   );
 };
