@@ -11,6 +11,16 @@ export const LoginStyle = StyleSheet.create ({
      },
      view: {
          width: "85%"
+     },
+     cardTitle: {
+       
+         color: '#4682b4'
+
+     },
+     cardButton: {
+         margin: 2,
+         marginLeft: 0,
+         marginRight: 0
      }
 
 })
