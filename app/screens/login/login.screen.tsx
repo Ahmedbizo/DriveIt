@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView, View } from 'react-native';
 import { Button, Card , TextInput} from 'react-native-paper';
 import { LoginStyle } from './login.style';
 
@@ -10,7 +10,7 @@ export const LoginScreen = () => {
     return(
 
         <SafeAreaView style={LoginStyle.content}>
-             
+             <View style={LoginStyle.view}>
              <Card>
                 <Card.Title title="Drive It"></Card.Title>
 
@@ -28,6 +28,7 @@ export const LoginScreen = () => {
                 </Card.Content>
 
              </Card>
+             </View>
 
 
 

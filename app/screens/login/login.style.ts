@@ -7,7 +7,10 @@ export const LoginStyle = StyleSheet.create ({
          justifyContent: 'center',
          alignItems: 'center',
          flexDirection:'row',
-         backgroundColor: '#66cdaa'
+         backgroundColor: '#4682b4'
+     },
+     view: {
+         width: "85%"
      }
 
 })
