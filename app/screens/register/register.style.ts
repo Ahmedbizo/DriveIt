@@ -8,7 +8,9 @@ export const registerStyle = StyleSheet.create({
 
     button: {
         marginTop: 30,
-        padding:8
+        padding:8,
+        marginRight:0,
+        marginLeft:0
     }
 
 
