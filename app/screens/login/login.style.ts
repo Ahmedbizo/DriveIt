@@ -7,20 +7,33 @@ export const LoginStyle = StyleSheet.create ({
          justifyContent: 'center',
          alignItems: 'center',
          flexDirection:'row',
-         backgroundColor: '#344955'
+         backgroundColor: '#d7ccc8'
      },
      view: {
          width: "85%"
      },
      cardTitle: {
        
-         color: '#F9AA33'
+         color: '#8e24aa',
+         position:'relative',
+         alignItems: 'center',
+         fontSize:30,
+         textAlign: 'center',
+         fontStyle:'italic'
 
      },
      cardButton: {
          margin: 2,
          marginLeft: 0,
-         marginRight: 0
+         marginRight:0,
+         padding:12
+         
+
+     },
+     card:{
+        backgroundColor: '#efebe9',
+        borderRadius:30,
+        padding:25
      }
 
 })

@@ -13,7 +13,7 @@ const App = () => {
   return(
   <PaperProvider theme={them}>
 
-    <RegisterScreen/>
+    <LoginScreen/>
   </PaperProvider>
 
   );
