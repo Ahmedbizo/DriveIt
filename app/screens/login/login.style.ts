@@ -7,14 +7,14 @@ export const LoginStyle = StyleSheet.create ({
          justifyContent: 'center',
          alignItems: 'center',
          flexDirection:'row',
-         backgroundColor: '#4682b4'
+         backgroundColor: '#344955'
      },
      view: {
          width: "85%"
      },
      cardTitle: {
        
-         color: '#4682b4'
+         color: '#F9AA33'
 
      },
      cardButton: {
