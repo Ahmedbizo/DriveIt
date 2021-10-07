@@ -5,6 +5,7 @@ export const them = {
     colors: {
         ...DefaultTheme.colors,
         primary: '#F9AA33',
-        background: "transparent"
+        background: "transparent",
+        
     }
 }

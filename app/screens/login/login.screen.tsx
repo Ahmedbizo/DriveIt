@@ -20,7 +20,7 @@ export const LoginScreen = () => {
 
                     <TextInput label='Email' keyboardType='email-address'></TextInput>
                     <TextInput label='Password' secureTextEntry={true}></TextInput>
-                    <Button uppercase={false} style={LoginStyle.cardButton}>Forget Email/Password</Button>
+                    <Button  uppercase={false} style={LoginStyle.cardButton}>Forget Email/Password</Button>
                     <Button mode="contained" style={LoginStyle.cardButton}> LogIn</Button>
 
                     <Button style={LoginStyle.cardButton}>Register</Button>

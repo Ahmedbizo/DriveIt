@@ -26,14 +26,17 @@ export const LoginStyle = StyleSheet.create ({
          margin: 2,
          marginLeft: 0,
          marginRight:0,
-         padding:12
+         padding:12,
+         borderRadius:30,
+         
          
 
      },
      card:{
         backgroundColor: '#efebe9',
-        borderRadius:30,
-        padding:25
+        borderRadius:40,
+        padding:25,
+        
      }
 
 })
