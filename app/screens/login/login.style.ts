@@ -37,6 +37,7 @@ export const LoginStyle = StyleSheet.create ({
         borderRadius:40,
         padding:25,
         
+        
      }
 
 })
