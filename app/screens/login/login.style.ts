@@ -38,6 +38,7 @@ export const LoginStyle = StyleSheet.create ({
         padding:25,
         
         
-     }
+     },
+
 
 })
