@@ -1,6 +1,7 @@
 import React from 'react';
-import { SafeAreaView, View , StyleSheet} from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps'; 
+import { SafeAreaView} from 'react-native';
+import MapView from 'react-native-maps'; 
+import { FAB } from 'react-native-paper';
 import { homeStyle } from './home.style';
 
 
@@ -21,7 +22,10 @@ const HomeScreen = () => {
      
      />
      
-     
+     <FAB
+     icon=""
+     style={homeStyle.fab}
+     />
    
    </SafeAreaView>
        
