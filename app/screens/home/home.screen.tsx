@@ -20,14 +20,39 @@ const HomeScreen = () => {
         longitudeDelta: 0.0121,
       }}>
 
-          <Marker 
-          description="Delivery"
-          coordinate={{  latitude: 37.78825,longitude: -122.4324}}>
-              <Image 
-              style={homeStyle.markerImage}
-              source={ require ("../../../assets/car.png")}/>
+            <Marker 
+                    description="Delivery"
+                    coordinate={{  latitude: 37.78819,longitude: -122.4315}}>
+                    <Image 
+                    style={homeStyle.markerImage}
+                    source={ require ("../../../assets/car.png")}/>
 
-      </Marker>
+          </Marker>
+
+          <Marker 
+                    description="Delivery"
+                    coordinate={{  latitude: 37.78821,longitude: -122.4321}}>
+                    <Image 
+                    style={homeStyle.markerImage}
+                    source={ require ("../../../assets/car.png")}/>
+
+          </Marker>
+          <Marker 
+                    description="Delivery"
+                    coordinate={{  latitude: 37.78845,longitude: -122.4340}}>
+                    <Image 
+                    style={homeStyle.markerImage}
+                    source={ require ("../../../assets/car.png")}/>
+
+          </Marker>
+          <Marker 
+                    description="Delivery"
+                    coordinate={{  latitude: 37.78855,longitude: -122.4355}}>
+                    <Image 
+                    style={homeStyle.markerImage}
+                    source={ require ("../../../assets/car.png")}/>
+
+          </Marker>
 
      </MapView>
      <FAB
