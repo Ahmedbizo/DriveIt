@@ -23,7 +23,7 @@ const HomeScreen = () => {
       }}>
 
       {
-          state == 2 ? 
+          state == 1 ? 
 
           <>
 
@@ -65,9 +65,35 @@ const HomeScreen = () => {
       }
 
 
+
+
+{
+          state == 2 ? 
+
+          <>
+
+          <Marker 
+          description="Origin"
+          coordinate={{  latitude: 37.78819,longitude: -122.4315}}>
+         
+
+        </Marker>
+
+        <Marker 
+                description="Distination "
+                coordinate={{  latitude: 37.78821,longitude: -122.4340}}>
+               
+
+        </Marker>
+      
+        </>
+        : null
+      }
+
+
 { 
       
-      state == 2 ? 
+      state == 1 ? 
 
       <Card>
 
@@ -104,7 +130,7 @@ const HomeScreen = () => {
 
      { 
      
-        state == 2 ? 
+        state == 1 ? 
 
         <FAB
         icon="" // have to fix it 
