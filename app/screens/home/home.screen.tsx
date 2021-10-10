@@ -23,7 +23,7 @@ const HomeScreen = () => {
       }}>
 
       {
-          state == 1 ? 
+          state == 2 ? 
 
           <>
 
@@ -65,65 +65,40 @@ const HomeScreen = () => {
       }
 
 
-{
-          state == 2 ? 
-
-          <>
-
-          <Marker 
-          description="Driver"
-          coordinate={{  latitude: 37.78819,longitude: -122.4315}}>
-         
-
-        </Marker>
-
-        <Marker 
-                description="Distenation"
-                coordinate={{  latitude: 37.78821,longitude: -122.4321}}>
-               
-
-        </Marker>
-       
-        </>
-        : null
-      }
-
-      { 
+{ 
       
-        state == 1 ? 
+      state == 2 ? 
 
-        <Card>
+      <Card>
 
-            <Card.Content>
-                <List.Item 
-                title="15.00 $ "
-                description= " Total Delivery Price "
-                left ={() => 
-                <IconButton
-                icon="car"  // have to fix it 
-                size={30} />
-                }
-                right={() => 
+          <Card.Content>
+              <List.Item 
+              title="15.00 $ "
+              description= " Total Delivery Price "
+              right={() => 
+              <View>
 
-                    <View>
+                  <Button>Cancel</Button>
+                  <Button mode='contained'>Cancel</Button>
+              </View>
 
-                        <Button >Cancel</Button>
-                        <Button style={homeStyle.icon} mode="contained" >Confirm </Button>
-                    </View>
-                }
-                />
-            </Card.Content>
-        </Card>
-        : null
+              }
+              />
+          </Card.Content>
+      </Card>
+      : null
 
-      }
+    }
+      
+
+     
            
 
      </MapView>
 
      { 
      
-        state == 1 ? 
+        state == 2 ? 
 
         <FAB
         icon="" // have to fix it 
