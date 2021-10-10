@@ -1,7 +1,7 @@
 import React from 'react';
-import { Image, SafeAreaView} from 'react-native';
+import { Image, SafeAreaView, View} from 'react-native';
 import MapView, { Marker } from 'react-native-maps'; 
-import { Card, FAB,IconButton,List } from 'react-native-paper';
+import { Button, Card, FAB,IconButton,List } from 'react-native-paper';
 import { homeStyle } from './home.style';
 
 
@@ -76,8 +76,16 @@ const HomeScreen = () => {
                 description= " Total Delivery Price "
                 left ={() => 
                 <IconButton
-                icon="car"
+                icon="car"  // have to fix it 
                 size={30} />
+                }
+                right={() => 
+
+                    <View>
+
+                        <Button>Cancel</Button>
+                        <Button mode="contained">Confirm </Button>
+                    </View>
                 }
                 />
             </Card.Content>
@@ -94,7 +102,7 @@ const HomeScreen = () => {
         state == 1 ? 
 
         <FAB
-        icon=""
+        icon="" // have to fix it 
         style={homeStyle.fab}
         />
         : null
