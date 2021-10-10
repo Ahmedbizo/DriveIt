@@ -41,6 +41,16 @@ export const homeStyle = StyleSheet.create({
         position: 'absolute',
         padding: 7,
         borderRadius:40,
+    },
+
+    confirmAndCancelButtun:{
+        margin: 10,
+        marginTop: 20,
+        justifyContent: 'center'
+    },
+
+    headertext: {
+        marginBottom: 20
     }
    
    

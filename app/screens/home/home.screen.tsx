@@ -1,13 +1,13 @@
 import React from 'react';
 import { Image, SafeAreaView, Text, View} from 'react-native';
 import MapView, { Marker } from 'react-native-maps'; 
-import { ActivityIndicator, Button, Card, FAB,IconButton,List } from 'react-native-paper';
+import { ActivityIndicator, Button, Card, FAB,IconButton,List} from 'react-native-paper';
 import { homeStyle } from './home.style';
 
 
 const HomeScreen = () => {
 
-    const state: number = 3;
+    const state: number = 2;
 
     return (
 
@@ -103,7 +103,7 @@ const HomeScreen = () => {
               description= " Total Delivery "
               left={() => 
             <IconButton
-            icon=""
+            icon="bike"
             />
             }
 
