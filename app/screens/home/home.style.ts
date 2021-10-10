@@ -15,5 +15,10 @@ export const homeStyle = StyleSheet.create({
     markerImage: {
         width: 60,
         height: 60
-    }
+    },
+    icon:{
+
+        marginTop: 10
+    },
+   
 })

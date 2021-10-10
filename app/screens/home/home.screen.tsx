@@ -83,8 +83,8 @@ const HomeScreen = () => {
 
                     <View>
 
-                        <Button>Cancel</Button>
-                        <Button mode="contained">Confirm </Button>
+                        <Button >Cancel</Button>
+                        <Button style={homeStyle.icon} mode="contained" >Confirm </Button>
                     </View>
                 }
                 />
