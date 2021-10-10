@@ -1,5 +1,5 @@
 import React from "react";
-import { Appbar } from "react-native-paper";
+import { Appbar, Menu } from "react-native-paper";
 
 
 export const HeaderComponent = (props: HeaderComponentParams) => { 
@@ -10,7 +10,16 @@ export const HeaderComponent = (props: HeaderComponentParams) => {
             {
                 props.hasBackButton? 
                 <Appbar.BackAction/>
-                : null
+                : 
+                <Menu 
+                visible={true}
+                onDismiss={() => {}}
+                anchor={
+                    <Appbar.Action
+                    icon="menu"/>
+                }>
+                    
+                </Menu>
             }
             
             <Appbar.Content title={props.title}/>
