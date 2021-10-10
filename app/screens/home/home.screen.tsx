@@ -1,13 +1,15 @@
 import React from 'react';
 import { Image, SafeAreaView, Text, View} from 'react-native';
 import MapView, { Marker } from 'react-native-maps'; 
-import { ActivityIndicator, Button, Card, FAB,IconButton,List} from 'react-native-paper';
+import { ActivityIndicator, Button, FAB} from 'react-native-paper';
 import { homeStyle } from './home.style';
+import {ConfirmDeliveryCardComponent} from '../../components/comfirn-delivery-card/confirm-delivery-card.component';
+import { SearchingDeliveryComponent} from '../../components/searching-delivery/searching-delivery.component';
 
 
 const HomeScreen = () => {
 
-    const state: number = 2;
+    const state: number = 3;
 
     return (
 
@@ -95,30 +97,7 @@ const HomeScreen = () => {
       
       state == 2 ? 
 
-      <Card>
-
-          <Card.Content >
-              <List.Item 
-              title="15.00 $ "
-              description= " Total Delivery "
-              left={() => 
-            <IconButton
-            icon="bike"
-            />
-            }
-
-              right={() => 
-              <View>
-                    <Button mode='contained'>Confirm</Button>
-                    <Button>Cancel</Button>
-                  
-                  
-              </View>
-
-              }
-              />
-          </Card.Content>
-      </Card>
+     <ConfirmDeliveryCardComponent/>
       : null
 
     }
@@ -145,16 +124,7 @@ const HomeScreen = () => {
      
      state == 3 ? 
 
-     <View style={homeStyle.flexCenterColum}>
-
-         <ActivityIndicator 
-         animating={true}
-         size={40}/>
-         <Text style={homeStyle.activityindicator}> Searching For a Delivery  Person </Text>
-         <Button  style={homeStyle.cancelDeliveryButton} mode='contained'>
-            Cancel
-         </Button>
-     </View>
+    <SearchingDeliveryComponent/>
 
      : null
      } 
