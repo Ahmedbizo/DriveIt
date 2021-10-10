@@ -64,9 +64,33 @@ const HomeScreen = () => {
         : null
       }
 
+
+{
+          state == 2 ? 
+
+          <>
+
+          <Marker 
+          description="Driver"
+          coordinate={{  latitude: 37.78819,longitude: -122.4315}}>
+         
+
+        </Marker>
+
+        <Marker 
+                description="Distenation"
+                coordinate={{  latitude: 37.78821,longitude: -122.4321}}>
+               
+
+        </Marker>
+       
+        </>
+        : null
+      }
+
       { 
       
-        state == 2 ? 
+        state == 1 ? 
 
         <Card>
 
