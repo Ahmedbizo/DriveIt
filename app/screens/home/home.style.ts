@@ -18,7 +18,8 @@ export const homeStyle = StyleSheet.create({
     },
     icon:{
 
-        marginTop: 10
+        marginTop: 4
     },
+   
    
 })

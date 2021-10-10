@@ -71,15 +71,21 @@ const HomeScreen = () => {
 
       <Card>
 
-          <Card.Content>
+          <Card.Content >
               <List.Item 
               title="15.00 $ "
-              description= " Total Delivery Price "
+              description= " Total Delivery "
+              left={() => 
+            <IconButton
+            icon=""
+            />
+            }
               right={() => 
               <View>
-
-                  <Button>Cancel</Button>
-                  <Button mode='contained'>Cancel</Button>
+                    <Button mode='contained'>Confirm</Button>
+                    <Button>Cancel</Button>
+                  
+                  
               </View>
 
               }
