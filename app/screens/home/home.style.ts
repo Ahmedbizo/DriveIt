@@ -31,9 +31,16 @@ export const homeStyle = StyleSheet.create({
     },
     activityindicator: {
         marginBottom: 30,
-        marginTop: 30,
+        marginTop: 40,
         fontSize: 20,
         fontStyle: 'italic'
+    },
+    cancelDeliveryButton: {
+        bottom: 10,
+        width: "96%",
+        position: 'absolute',
+        padding: 7,
+        borderRadius:40,
     }
    
    

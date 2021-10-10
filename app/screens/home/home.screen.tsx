@@ -151,7 +151,7 @@ const HomeScreen = () => {
          animating={true}
          size={40}/>
          <Text style={homeStyle.activityindicator}> Searching For a Delivery  Person </Text>
-         <Button mode='contained'>
+         <Button  style={homeStyle.cancelDeliveryButton} mode='contained'>
             Cancel
          </Button>
      </View>
