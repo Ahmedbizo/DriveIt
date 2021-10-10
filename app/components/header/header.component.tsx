@@ -7,7 +7,12 @@ export const HeaderComponent = (props: HeaderComponentParams) => {
     return( 
          
         <Appbar>
-            <Appbar.BackAction/>
+            {
+                props.hasBackButton? 
+                <Appbar.BackAction/>
+                : null
+            }
+            
             <Appbar.Content title={props.title}/>
     </Appbar>
 
@@ -16,5 +21,6 @@ export const HeaderComponent = (props: HeaderComponentParams) => {
 
 interface HeaderComponentParams {
 
+    hasBackButton? : boolean;
     title: string;
 }

@@ -1,10 +1,11 @@
 import React from 'react';
-import { Image, SafeAreaView, Text, View} from 'react-native';
+import { Image, SafeAreaView} from 'react-native';
 import MapView, { Marker } from 'react-native-maps'; 
-import { ActivityIndicator, Button, FAB} from 'react-native-paper';
+import {FAB} from 'react-native-paper';
 import { homeStyle } from './home.style';
 import {ConfirmDeliveryCardComponent} from '../../components/comfirn-delivery-card/confirm-delivery-card.component';
 import { SearchingDeliveryComponent} from '../../components/searching-delivery/searching-delivery.component';
+import { HeaderComponent } from '../../components/header/header.component';
 
 
 const HomeScreen = () => {
@@ -14,6 +15,7 @@ const HomeScreen = () => {
     return (
 
         <SafeAreaView style={homeStyle.flex}>
+            <HeaderComponent title="Delivery App"/>
 
 
      <MapView style={homeStyle.flex}
