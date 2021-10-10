@@ -1,13 +1,13 @@
 import React from 'react';
-import { Image, SafeAreaView, View} from 'react-native';
+import { Image, SafeAreaView, Text, View} from 'react-native';
 import MapView, { Marker } from 'react-native-maps'; 
-import { Button, Card, FAB,IconButton,List } from 'react-native-paper';
+import { ActivityIndicator, Button, Card, FAB,IconButton,List } from 'react-native-paper';
 import { homeStyle } from './home.style';
 
 
 const HomeScreen = () => {
 
-    const state: number = 2;
+    const state: number = 3;
 
     return (
 
@@ -93,7 +93,7 @@ const HomeScreen = () => {
 
 { 
       
-      state == 1 ? 
+      state == 2 ? 
 
       <Card>
 
@@ -106,6 +106,7 @@ const HomeScreen = () => {
             icon=""
             />
             }
+
               right={() => 
               <View>
                     <Button mode='contained'>Confirm</Button>
@@ -139,6 +140,24 @@ const HomeScreen = () => {
         : null
 
      }
+
+     { 
+     
+     state == 3 ? 
+
+     <View style={homeStyle.flexCenterColum}>
+
+         <ActivityIndicator 
+         animating={true}
+         size={40}/>
+         <Text style={homeStyle.activityindicator}> Searching For a Delivery  Person </Text>
+         <Button mode='contained'>
+            Cancel
+         </Button>
+     </View>
+
+     : null
+     } 
     
    
    </SafeAreaView>

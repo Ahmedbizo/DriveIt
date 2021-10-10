@@ -20,6 +20,21 @@ export const homeStyle = StyleSheet.create({
 
         marginTop: 4
     },
+
+    flexCenterColum:{
+        flex: 1,
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        
+    },
+    activityindicator: {
+        marginBottom: 30,
+        marginTop: 30,
+        fontSize: 20,
+        fontStyle: 'italic'
+    }
    
    
 })
