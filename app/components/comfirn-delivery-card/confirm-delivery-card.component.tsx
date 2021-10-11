@@ -11,20 +11,23 @@ export const ConfirmDeliveryCardComponent = () => {
 
         <Card.Content >
             <List.Item 
+             title="15.00 $ "
+             description= " Total Delivery "
            
             left={() => 
           <IconButton
-          icon="bike"
+          icon="car"
           style={confirmDeliveryCardStyle.icon}
           />
           }
-          title="15.00 $ "
-          description= " Total Delivery "
+         
 
           right={() => 
             <View>
                 <Button style={confirmDeliveryCardStyle.cancelBottun}>Cancel</Button>
-                 <Button mode='contained'>Confirm</Button>
+                <Button mode='contained'>Confirm</Button>
+                
+                 
                   
             </View>
 

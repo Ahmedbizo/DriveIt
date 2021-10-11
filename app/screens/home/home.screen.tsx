@@ -10,7 +10,7 @@ import { HeaderComponent } from '../../components/header/header.component';
 
 const HomeScreen = () => {
 
-    const state: number = 3;
+    const state: number = 1;
 
     return (
 
@@ -33,7 +33,7 @@ const HomeScreen = () => {
 
           <Marker 
           description="Delivery"
-          coordinate={{  latitude: 37.78819,longitude: -122.4315}}>
+          coordinate={{  latitude: 37.79525,longitude: -122.4315}}>
           <Image 
           style={homeStyle.markerImage}
           source={ require ("../../../assets/car.png")}/>
@@ -42,7 +42,7 @@ const HomeScreen = () => {
 
         <Marker 
                 description="Delivery"
-                coordinate={{  latitude: 37.78821,longitude: -122.4321}}>
+                coordinate={{  latitude: 37.78140,longitude: -122.4332}}>
                 <Image 
                 style={homeStyle.markerImage}
                 source={ require ("../../../assets/car.png")}/>
@@ -50,7 +50,7 @@ const HomeScreen = () => {
         </Marker>
         <Marker 
                 description="Delivery"
-                coordinate={{  latitude: 37.78845,longitude: -122.4340}}>
+                coordinate={{  latitude: 37.78310,longitude: -122.4355}}>
                 <Image 
                 style={homeStyle.markerImage}
                 source={ require ("../../../assets/car.png")}/>
@@ -59,6 +59,14 @@ const HomeScreen = () => {
         <Marker 
                 description="Delivery"
                 coordinate={{  latitude: 37.78855,longitude: -122.4355}}>
+                <Image 
+                style={homeStyle.markerImage}
+                source={ require ("../../../assets/car.png")}/>
+
+        </Marker>
+        <Marker 
+                description="Delivery"
+                coordinate={{  latitude: 37.78355,longitude: -122.4355}}>
                 <Image 
                 style={homeStyle.markerImage}
                 source={ require ("../../../assets/car.png")}/>
@@ -115,7 +123,7 @@ const HomeScreen = () => {
         state == 1 ? 
 
         <FAB
-        icon="" // have to fix it 
+        icon="plus" color="white" 
         style={homeStyle.fab}
         />
         : null

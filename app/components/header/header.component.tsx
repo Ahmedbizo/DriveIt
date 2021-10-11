@@ -18,7 +18,7 @@ export const HeaderComponent = (props: HeaderComponentParams) => {
                     <Appbar.Action
                     icon="menu"/>
                 }>
-                    
+
                 </Menu>
             }
             
