@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 export const homeStyle = StyleSheet.create({
     flex: {
-       flex: 2
+       flex: 1
         
     },
     fab: {
