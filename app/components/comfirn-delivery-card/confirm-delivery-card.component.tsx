@@ -11,12 +11,13 @@ export const ConfirmDeliveryCardComponent = () => {
 
         <Card.Content >
             <List.Item 
-             title="15.00 $ "
+             title="25.00 $ "
              description= " Total Delivery "
            
             left={() => 
           <IconButton
           icon="car"
+          
           style={confirmDeliveryCardStyle.icon}
           />
           }

@@ -12,7 +12,7 @@ export const HeaderComponent = (props: HeaderComponentParams) => {
                 <Appbar.BackAction/>
                 : 
                 <Menu 
-                visible={true}
+                visible={false}
                 onDismiss={() => {}}
                 anchor={
                     <Appbar.Action

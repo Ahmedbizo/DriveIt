@@ -15,7 +15,7 @@ const HomeScreen = () => {
     return (
 
         <SafeAreaView style={homeStyle.flex}>
-            <HeaderComponent title="Delivery App"/>
+            <HeaderComponent title="HeelpOO" />
 
 
      <MapView style={homeStyle.flex}
@@ -50,7 +50,7 @@ const HomeScreen = () => {
         </Marker>
         <Marker 
                 description="Delivery"
-                coordinate={{  latitude: 37.78310,longitude: -122.4355}}>
+                coordinate={{  latitude: 37.78910,longitude: -122.4355}}>
                 <Image 
                 style={homeStyle.markerImage}
                 source={ require ("../../../assets/car.png")}/>
