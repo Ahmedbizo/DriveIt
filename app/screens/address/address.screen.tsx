@@ -18,7 +18,8 @@ const AddressScreen = () => {
              <View>
                  <Button
                  icon="plus"
-                 
+                 style={addressStyle.buttonIconadd}
+                 labelStyle={addressStyle.buttonIconAddLableStyle}
                  >
 
                  </Button>
