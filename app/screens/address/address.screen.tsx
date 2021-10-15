@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
-import { Title } from "react-native-paper";
+import { TextInput} from "react-native-paper";
 import { HeaderComponent } from "../../components/header/header.component";
 
 const AddressScreen = () => {
@@ -9,6 +9,9 @@ const AddressScreen = () => {
         <SafeAreaView>
 
             <HeaderComponent title="Address Screen" hasBackButton={true}/>
+            <TextInput
+            label="Origin"/>
+            <TextInput label=" Destination "/>
         </SafeAreaView>
     )
 }
