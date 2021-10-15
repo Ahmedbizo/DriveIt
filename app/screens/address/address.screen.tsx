@@ -24,7 +24,11 @@ const AddressScreen = () => {
                             label=" Destination "
                             right={
                                 <TextInput.Icon
-                                name="close"/>
+                                name="close"
+                                color={addressStyle.buttonIconRemove.color}
+                                style={addressStyle.buttonIconRemove}
+                                />
+                                
                             }
 
                             />

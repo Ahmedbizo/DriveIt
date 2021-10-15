@@ -24,5 +24,9 @@ export const addressStyle = StyleSheet.create({
     },
     readyButtonLableStyle: {
         fontSize: 20 
+    },
+    buttonIconRemove: {
+        color: "red",
+        opacity: 0.3
     }
 })
