@@ -21,7 +21,13 @@ const AddressScreen = () => {
                         
                         <TextInput 
                         key={`destination${index}`}
-                            label=" Destination "/>
+                            label=" Destination "
+                            right={
+                                <TextInput.Icon
+                                name="close"/>
+                            }
+
+                            />
                         )
                     }
                     
