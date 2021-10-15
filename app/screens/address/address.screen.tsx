@@ -6,6 +6,8 @@ import { addressStyle } from "./address.style";
 
 const AddressScreen = () => {
 
+    const destination: number[] = [1,2]; 
+
     return(
         <SafeAreaView>
 
@@ -13,7 +15,16 @@ const AddressScreen = () => {
             <View style={addressStyle.marginHorizantal}>
                     <TextInput
                     label="Origin"/>
-                    <TextInput label=" Destination "/>
+
+                    {
+                        destination.map((destination: number, index: number) => 
+                        
+                        <TextInput 
+                        key={`destination${index}`}
+                            label=" Destination "/>
+                        )
+                    }
+                    
              </View>
              <View>
                  <Button
