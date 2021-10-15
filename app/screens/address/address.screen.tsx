@@ -6,7 +6,7 @@ import { addressStyle } from "./address.style";
 
 const AddressScreen = () => {
 
-    const destination: number[] = [1,2]; 
+    const destinations: number[] = [1,2]; 
 
     return(
         <SafeAreaView>
@@ -17,17 +17,19 @@ const AddressScreen = () => {
                     label="Origin"/>
 
                     {
-                        destination.map((destination: number, index: number) => 
+                        destinations.map((destination: number, index: number) => 
                         
                         <TextInput 
                         key={`destination${index}`}
                             label=" Destination "
                             right={
+                                destinations.length > 1 ?
                                 <TextInput.Icon
                                 name="close"
                                 color={addressStyle.buttonIconRemove.color}
                                 style={addressStyle.buttonIconRemove}
                                 />
+                                : null
                                 
                             }
 
