@@ -23,6 +23,15 @@ const AddressScreen = () => {
                  >
 
                  </Button>
+                 <Button
+                    mode="contained"
+                    uppercase={false}
+                    style={addressStyle.readyButtonStyle}
+                    labelStyle={addressStyle.readyButtonLableStyle}
+                 >
+                        Ready
+
+                 </Button>
              </View>
         </SafeAreaView>
     )

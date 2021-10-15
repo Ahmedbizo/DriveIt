@@ -13,5 +13,16 @@ export const addressStyle = StyleSheet.create({
     buttonIconAddLableStyle: {
         fontSize: 35,
 
+    },
+    readyButtonStyle:{
+        margin: 10,
+        marginTop: 80,
+        height: 50, 
+        paddingVertical: 3,
+        borderRadius: 50
+
+    },
+    readyButtonLableStyle: {
+        fontSize: 20 
     }
 })
