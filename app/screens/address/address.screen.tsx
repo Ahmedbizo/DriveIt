@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, View } from "react-native";
-import { TextInput} from "react-native-paper";
+import { Button, TextInput} from "react-native-paper";
 import { HeaderComponent } from "../../components/header/header.component";
 import { addressStyle } from "./address.style";
 
@@ -14,6 +14,14 @@ const AddressScreen = () => {
                     <TextInput
                     label="Origin"/>
                     <TextInput label=" Destination "/>
+             </View>
+             <View>
+                 <Button
+                 icon="plus"
+                 
+                 >
+
+                 </Button>
              </View>
         </SafeAreaView>
     )
