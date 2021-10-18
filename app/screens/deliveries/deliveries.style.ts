@@ -6,6 +6,7 @@ export const DeliveriesSryle = StyleSheet.create({
         backgroundColor: "#FFF8E5",
         margin:8,
         marginTop: 15,
+       
         
         
     },
