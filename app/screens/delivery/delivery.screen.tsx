@@ -33,7 +33,7 @@ const DeliveryScreen = () => {
             <Card style={DeliveryStyle.card}>
                 <Card.Title
                 style={DeliveryStyle.cardText}
-                title={"01/02/2021"}
+                title={"18/10/2021"}
                 right={()=>
                 <Text style={DeliveryStyle.price}>$ 30.00</Text>
                 
@@ -52,6 +52,22 @@ const DeliveryScreen = () => {
                         />
                     }
                     />
+                    <List.Item
+                    title="Origin"
+                    description="Gustaf-Street 50"
+                    left={()=> 
+                        <List.Icon  icon="flag-outline"/>
+                    }
+                    />
+
+                <List.Item
+                    title="Destination"
+                    description="Certral-Station 34"
+                    left={()=> 
+                        <List.Icon  icon="flag-checkered"/>
+                    }
+                    />
+                    
                 </Card.Content>
             </Card>
         </SafeAreaView>

@@ -6,7 +6,7 @@ export const DeliveryStyle = StyleSheet.create({
     },
     card: {
         borderRadius: 40,
-        backgroundColor: "#F9AA33",
+        backgroundColor: "#CDF2CA",
         margin:4,
         
         
@@ -19,7 +19,8 @@ export const DeliveryStyle = StyleSheet.create({
     price: {
         marginRight:15,
         fontSize: 30,
-        color:"#09009B"
+        color:"#09009B",
+        fontWeight: "bold"
         
     }
 })
