@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-native';
 import { Title } from 'react-native-paper';
+import { HeaderComponent } from '../../components/header/header.component';
 
 const DeliveryScreen = () => {
 
@@ -9,7 +10,7 @@ const DeliveryScreen = () => {
 
         <SafeAreaView>
 
-            <Title> Delivery Screen </Title>
+            <HeaderComponent title=" Delivery details " hasBackButton={true}/>
         </SafeAreaView>
     )
 }
