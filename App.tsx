@@ -9,6 +9,7 @@ import { RegisterScreen } from './app/screens/register/register.screen';
 import HomeScreen from './app/screens/home/home.screen';
 import AddressScreen from './app/screens/address/address.screen';
 import DeliveryScreen from './app/screens/delivery/delivery.screen';
+import DeliveriesScreen from './app/screens/deliveries/deliveries.screen';
 
 const App = () => {
 
@@ -16,7 +17,7 @@ const App = () => {
   return(
   <PaperProvider theme={them}>
 
-    <DeliveryScreen/>
+    <DeliveriesScreen/>
   </PaperProvider>
 
   );
