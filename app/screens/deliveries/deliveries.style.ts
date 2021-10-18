@@ -3,8 +3,9 @@ import { StyleSheet } from "react-native";
 export const DeliveriesSryle = StyleSheet.create({
     card: {
         borderRadius: 30,
-        backgroundColor: "#CDF2CA",
+        backgroundColor: "#FFF8E5",
         margin:8,
+        marginTop: 15,
         
         
     },

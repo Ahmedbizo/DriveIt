@@ -34,6 +34,7 @@ const DeliveriesScreen = () => {
                     
             </Card>
             
+            
         </SafeAreaView>
     )
 }
