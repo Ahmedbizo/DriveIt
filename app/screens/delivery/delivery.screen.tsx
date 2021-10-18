@@ -1,7 +1,7 @@
 import React from 'react';
 import { SafeAreaView, View } from 'react-native';
 import MapView from 'react-native-maps';
-import { Card, Text } from 'react-native-paper';
+import { Avatar, Card, List, Text } from 'react-native-paper';
 
 import { HeaderComponent } from '../../components/header/header.component';
 import { DeliveryStyle } from './delivery.style';
@@ -30,15 +30,29 @@ const DeliveryScreen = () => {
                 </MapView>
             </View>
 
-            <Card>
+            <Card style={DeliveryStyle.card}>
                 <Card.Title
+                style={DeliveryStyle.cardText}
                 title={"01/02/2021"}
                 right={()=>
-                <Text>$ 30.00</Text>
+                <Text style={DeliveryStyle.price}>$ 30.00</Text>
                 
                 }>
 
                 </Card.Title>
+                <Card.Content>
+                    <List.Item 
+                    title={"David Jon"}
+                    description="63 Delivery"
+                    left={()=>
+                    
+                        <Avatar.Image
+                        size={55}
+                        source={{uri : "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50"}}
+                        />
+                    }
+                    />
+                </Card.Content>
             </Card>
         </SafeAreaView>
     )
