@@ -5,9 +5,9 @@ export const DeliveryStyle = StyleSheet.create({
         flex: 1
     },
     card: {
-        borderRadius: 40,
+        borderRadius: 30,
         backgroundColor: "#CDF2CA",
-        margin:4,
+        margin:8,
         
         
     },

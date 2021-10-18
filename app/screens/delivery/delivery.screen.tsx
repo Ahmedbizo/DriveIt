@@ -52,6 +52,14 @@ const DeliveryScreen = () => {
                         />
                     }
                     />
+                    
+                    
+                </Card.Content>
+            </Card>
+
+            <Card style={DeliveryStyle.card}>
+            <Card.Content>
+                   
                     <List.Item
                     title="Origin"
                     description="Gustaf-Street 50"
@@ -69,6 +77,7 @@ const DeliveryScreen = () => {
                     />
                     
                 </Card.Content>
+
             </Card>
         </SafeAreaView>
     )
