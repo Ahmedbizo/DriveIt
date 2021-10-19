@@ -15,8 +15,8 @@ export const RegisterScreen = () => {
             <View style={registerStyle.content}>
                 <TextInput label='Name'/>
                 <TextInput label= 'Email' keyboardType='email-address'/>
-                <TextInput label='Password' secureTextEntry={true} />
-                <TextInput label='Confirm Password ' secureTextEntry={true} />
+                <TextInput label='Password' secureTextEntry={true}  right={<TextInput.Icon name="eye-off" />} />
+                <TextInput label='Confirm Password ' secureTextEntry={true}   right={<TextInput.Icon name="eye-off" />}/>
                 <TextInput label='Phone Number' keyboardType='number-pad'/>
                 <Button mode='contained' style={registerStyle.button}>Register</Button>
                 

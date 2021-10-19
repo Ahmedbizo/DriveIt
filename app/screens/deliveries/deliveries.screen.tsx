@@ -7,7 +7,7 @@ import { DeliveriesSryle } from './deliveries.style';
 
 const DeliveriesScreen = () => {
 
-    const deliveries: number [] = [1,2,3,4,5,6];
+    const deliveries: number [] = [1,2,3,4,5,6,7,8,9];
 
     return(
         <SafeAreaView >
@@ -24,8 +24,8 @@ const DeliveriesScreen = () => {
                />
                <Card.Title 
                    title="18/10/2021"
-                   
                    subtitle="David jon "
+                   
                    
                    right={() => 
                    <Text style={DeliveriesSryle.cardText}> $ 30.00</Text>

@@ -33,7 +33,7 @@ export const LoginStyle = StyleSheet.create ({
 
      },
      card:{
-        backgroundColor: '#efebe9',
+        backgroundColor: '#fff',
         borderRadius:40,
         padding:25,
         
