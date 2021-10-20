@@ -12,8 +12,8 @@ export const DeliveriesSryle = StyleSheet.create({
     },
     cardText: {
         marginRight:20,
-        fontSize: 30,
-        color: "#09009B"
+        fontSize: 25,
+        color: "#00AF91"
        
         
     },

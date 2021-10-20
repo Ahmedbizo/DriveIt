@@ -10,7 +10,7 @@ import { HeaderComponent } from '../../components/header/header.component';
 
 const HomeScreen = () => {
 
-    const state: number = 3;
+    const state: number = 1;
 
     return (
 

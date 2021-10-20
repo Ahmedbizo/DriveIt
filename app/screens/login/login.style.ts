@@ -14,7 +14,7 @@ export const LoginStyle = StyleSheet.create ({
      },
      cardTitle: {
        
-         color: '#8e24aa',
+         color: 'red',
          position:'relative',
          alignItems: 'center',
          fontSize:30,
@@ -32,6 +32,7 @@ export const LoginStyle = StyleSheet.create ({
          
 
      },
+     
      card:{
         backgroundColor: '#fff',
         borderRadius:40,
