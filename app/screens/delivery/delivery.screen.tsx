@@ -14,6 +14,7 @@ const DeliveryScreen = () => {
         <SafeAreaView style={DeliveryStyle.flex}>
 
             <HeaderComponent title=" Delivery details " hasBackButton={true}/>
+            
             <View style={DeliveryStyle.flex}>
 
                 <MapView 
@@ -29,7 +30,7 @@ const DeliveryScreen = () => {
                 
                 </MapView>
             </View>
-
+            
             <Card style={DeliveryStyle.card}>
                 <Card.Title
                 style={DeliveryStyle.cardText}

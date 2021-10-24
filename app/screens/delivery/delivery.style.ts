@@ -8,6 +8,8 @@ export const DeliveryStyle = StyleSheet.create({
         borderRadius: 30,
         backgroundColor: "#CDF2CA",
         margin:8,
+        bottom:-10,
+        padding:5
         
         
     },
@@ -22,5 +24,6 @@ export const DeliveryStyle = StyleSheet.create({
         color:"#09009B",
         fontWeight: "bold"
         
-    }
+    },
+  
 })
